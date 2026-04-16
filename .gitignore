@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Environment variables (if you add API keys later)
+.env
+.env.local
+.env.*.local
