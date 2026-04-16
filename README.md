@@ -1,142 +1,131 @@
-# 🐍 Python Programming Fundamentals
+# STEM Research Learning Platform
 
-An interactive, visual guide to learning Python programming from scratch. Perfect for beginners who want to understand the core concepts of programming with hands-on examples.
+An interactive learning platform for STEM research — covering Python programming, Mathematics, and Physics with a live code editor, whiteboard tools, and blog-style concept breakdowns.
 
-![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
-![React](https://img.shields.io/badge/react-18.x-61dafb.svg)
+![React](https://img.shields.io/badge/react-19.x-61dafb.svg)
+![Vite](https://img.shields.io/badge/vite-rolldown-646cff.svg)
 ![Tailwind CSS](https://img.shields.io/badge/tailwind-3.x-38bdf8.svg)
+![Pyodide](https://img.shields.io/badge/pyodide-0.29-3572A5.svg)
 
-## 🚀 [Live Demo](https://demoniks.github.io/Python_Fundamentals/)
+## Live Demo
 
-## ✨ Features
-
-- **Interactive Learning** - Click through different programming concepts at your own pace
-- **Code Examples** - Real Python code snippets you can study and copy
-- **Visual Design** - Modern, clean interface built with React and Tailwind CSS
-- **Beginner-Friendly** - Explanations written for people new to programming
-- **Comprehensive Coverage** - From variables to classes and everything in between
-
-## 📚 Topics Covered
-
-### 1. Variables & Data Types
-- Strings, integers, floats, and booleans
-- Variable operations and string manipulation
-- Type conversion basics
-
-### 2. Conditionals (If/Else)
-- Basic if statements
-- elif and else conditions
-- Logical operators (and, or, not)
-
-### 3. Loops
-- For loops with ranges and lists
-- While loops and loop control
-- Iterating with enumerate
-
-### 4. Lists & Data Structures
-- Creating and accessing lists
-- List methods (append, insert, remove)
-- List slicing and comprehensions
-
-### 5. Functions
-- Defining and calling functions
-- Parameters and return values
-- Default parameters and multiple returns
-
-### 6. Classes & Objects
-- Object-oriented programming basics
-- Creating classes with properties and methods
-- Inheritance and method overriding
-
-## 🛠️ Built With
-
-- **[React](https://react.dev/)** - UI framework
-- **[Vite](https://vitejs.dev/)** - Build tool and dev server
-- **[Tailwind CSS](https://tailwindcss.com/)** - Styling
-- **[Lucide React](https://lucide.dev/)** - Beautiful icons
-
-## 🏃‍♂️ Running Locally
-
-### Prerequisites
-- Node.js 20.x or higher
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/Demoniks/Python_Fundamentals.git
-cd Python_Fundamentals
-```
-
-2. Install dependencies
-```bash
-npm install
-```
-
-3. Start the development server
-```bash
-npm run dev
-```
-
-4. Open your browser to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory.
-
-## 📖 How to Use
-
-1. **Navigate Topics** - Use the sidebar to jump between different programming concepts
-2. **Read Examples** - Each topic has multiple code examples with syntax highlighting
-3. **Understand Concepts** - Blue information boxes explain how each concept works
-4. **Practice** - Copy the code examples and try them in your own Python environment
-
-## 🎯 Learning Tips
-
-- **Start from the beginning** - Topics build on each other progressively
-- **Type the code yourself** - Don't just read, actually write the examples
-- **Experiment** - Modify the examples to see what happens
-- **Practice daily** - Even 15 minutes a day builds strong programming skills
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to improve the guide:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -m 'Add some improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
-### Ideas for Contributions
-- Add more code examples
-- Include practice exercises
-- Add new topics (dictionaries, file I/O, error handling)
-- Improve explanations
-- Fix typos or bugs
-
-## 👨‍💻 Author
-
-**Demoniks**
-- GitHub: [@Demoniks](https://github.com/Demoniks)
-
-## 🙏 Acknowledgments
-
-- Built with inspiration from interactive coding tutorials
-- Icons by [Lucide](https://lucide.dev/)
-- Styled with [Tailwind CSS](https://tailwindcss.com/)
-
-## 📬 Feedback
-
-If you have suggestions or find issues, please [open an issue](https://github.com/Demoniks/Python_Fundamentals/issues) on GitHub.
+[https://demoniks.github.io/STEM-Learning-Platform/](https://demoniks.github.io/STEM-Learning-Platform/)
 
 ---
 
-**Happy Learning!** 🎓✨
+## Features
 
-If this guide helped you learn Python, consider giving it a ⭐ on GitHub!
+- **Live Python Editor** — Write and run Python directly in the browser powered by Pyodide (no server needed)
+- **Interactive Whiteboard** — Freehand drawing and diagram tool via Excalidraw integration
+- **Blog-style Concept Sections** — Rich HTML explanations with formatted tables, lists, and callouts
+- **Multi-subject Navigation** — Switch between Python, Mathematics, and Physics from a unified sidebar
+- **Code Examples** — Syntax-highlighted code blocks with copy support
+- **Responsive Layout** — Works on desktop and tablet
+
+---
+
+## Subjects Covered
+
+### Python Basics
+
+- Variables and data types
+- Conditionals and loops
+- Lists and data structures
+- Functions and classes
+
+### Mathematics
+
+- Complex Numbers — real/imaginary parts, operations, Python's `complex` type
+- Vectors — magnitude, direction, dot product with NumPy
+- Matrices, Determinants, Eigenvectors
+- Differentiation, Integration, Partial Derivatives
+
+### Physics
+
+- Topics in progress
+
+---
+
+## Tech Stack
+
+| Tool | Purpose |
+| --- | --- |
+| [React 19](https://react.dev/) | UI framework |
+| [Vite (rolldown)](https://vitejs.dev/) | Build tool and dev server |
+| [Tailwind CSS](https://tailwindcss.com/) | Styling |
+| [Pyodide](https://pyodide.org/) | Python runtime in the browser (WebAssembly) |
+| [Excalidraw](https://excalidraw.com/) | Embedded whiteboard |
+| [Lucide React](https://lucide.dev/) | Icons |
+| [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) | Blog-style prose rendering |
+
+---
+
+## Running Locally
+
+**Prerequisites:** Node.js 20.x or higher
+
+```bash
+# Clone the repo
+git clone https://github.com/Demoniks/STEM-Learning-Platform.git
+cd STEM-Learning-Platform
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser.
+
+```bash
+# Build for production
+npm run build
+
+# Preview the production build
+npm run preview
+```
+
+---
+
+## How to Use
+
+1. **Pick a subject** — Use the top navigation to switch between Python, Mathematics, and Physics
+2. **Select a topic** — Click any topic in the sidebar to load its concept sections
+3. **Read the breakdown** — Each concept has a blog-style explanation, code examples, and key insight callouts
+4. **Open the editor** — Switch to the Live Editor tab to write and run Python code in the browser
+5. **Use the whiteboard** — Switch to the Whiteboard tab to sketch diagrams and work through problems freehand
+
+---
+
+## Project Structure
+
+```text
+src/
+  components/
+    CodeEditor/        # Live Python editor (Pyodide)
+    mathSections/      # Math topic data and content
+    PhysicSections/    # Physics topic data and content
+    PythonTopics/      # Python topic data and main guide renderer
+    NavigationMenu/    # Sidebar navigation
+    Whiteboard/        # Excalidraw whiteboard components
+```
+
+---
+
+## Contributing
+
+Contributions welcome — especially new topic content for Mathematics and Physics sections.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/topic-name`)
+3. Commit your changes (`git commit -m 'Add ...'`)
+4. Push and open a Pull Request
+
+---
+
+## Author
+
+**Demoniks** — [@Demoniks](https://github.com/Demoniks)
+
+Issues and suggestions: [open an issue](https://github.com/Demoniks/Python_Fundamentals/issues)

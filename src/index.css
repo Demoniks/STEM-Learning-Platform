@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hide lock button in Excalidraw whiteboard */
+.excalidraw button[title*="Lock"],
+.excalidraw button[title*="lock"],
+.excalidraw .ToolIcon__lock {
+  display: none !important;
+}
+
+/* Suppress Canvas2D performance warning from Excalidraw */
+/* This is a harmless performance optimization warning */
