@@ -3,5 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/STEM-Learning-Platform'
+  base: '/STEM-Learning-Platform',
+  resolve: {
+    dedupe: ['react', 'react-dom']
+  }
 })
